@@ -87,7 +87,7 @@ CALL remover_consulta(1);
 
 DELIMITER //
 create function total_gasto_paciente(
-    in p_id_paciente int
+p_id_paciente int
 )
 returns decimal(10,2)
 deterministic 
